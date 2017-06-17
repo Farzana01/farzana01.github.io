@@ -1,0 +1,1 @@
+This is a simple portfolio site highlighting my work that can be shared with potential employers.
