@@ -1,0 +1,52 @@
+
+p {
+     
+      color: blue;
+      
+}
+
+body {
+
+        color: black;
+
+}
+
+h1 {
+    color: red;
+}
+
+a {
+   
+   color: green;
+
+
+}
+
+section {
+  
+    border: none;
+}
+
+nav {
+     
+     color: blue;
+     font-size: 25px;
+     font-type: bold;
+}
+
+img {
+     
+      border: none;
+
+}
+
+header {
+  
+      font: bold;
+}
+
+.VirtualPet img {
+  
+      width: 50%;
+
+}
