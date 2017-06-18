@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
 body {font-family: "Times New Roman", Georgia, Serif;}
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5 {
     font-family: "Playfair Display";
     letter-spacing: 5px;
 }
@@ -24,17 +24,16 @@ h1,h2,h3,h4,h5,h6 {
     <!-- Right-sided navbar links. Hide them on small screens -->
     
     <div class="w3-right w3-hide-small">
-      <a href="#about" class="w3-bar-item w3-button">About</a>     
-      <a href="#SkillsandLanguages" class="w3-bar-item w3-button">Skills and Languages</a>
-      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+      <a href="#about" class="w3-bar-item w3-button"> About</a>     
+      <a href="#SkillsandLanguages" class="w3-bar-item w3-button"> Skills and Languages</a>
+      <a href="#contact" class="w3-bar-item w3-button"> Contact</a>
     </div>
     </div>
     </div>
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-  <img src="laptop.jpg" width="1600" height="800">
-  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+   <div class="w3-display-bottomleft w3-padding-large w3-opacity">
     <h1 class="w3-xxlarge"></h1>
   </div>
 </header>
@@ -46,14 +45,14 @@ h1,h2,h3,h4,h5,h6 {
   <section>
   <div class="w3-row w3-padding-64" id="about">
     <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="me.jpg" width="500" height="600">
+     <img src="me.jpg" width="450" height="526">
     </div>   
 
     
     <div class="w3-col m6 w3-padding-large">
-      <h1 class="w3-center">About Me</h1><
+      <h1 class="w3-center">About Me</h1>
       <h5 class="w3-center"></h5>
-      <p class="w3-large"> My name is Farzana Azad-Hussain. I graduated from Franklin University in Forensic Accounting with Magna Cum Laude. In the past, I have worked for Citigroup Investments for 6 years before I decided to become a stay-home for my two boys. Currently, I am enrolled in a bootcamp called WeCanCodeIt focusing on to become a Java developer. Grateful for an amazing family, the students and instructors at this cohort for supporting me this far.
+      <p class="w3-large"> My name is Farzana Azad-Hussain. I graduated from Franklin University in 2007 with a double major in Forensic Accounting and Accouting with Magna Cum Laude. In the past, I have worked for Citigroup Investments for 6 years as a Hedge Fund Accountant. I also spent three years as a stay-home mom. Now that my kids are off to school, I am ready to get back into the market. Over the years that I stayed home, the more I thought about it, the less I pictured myself as an Accountant in the future. So I decided to switch my career path from being an accountant to be a web developer. After a couple of weeks of research, I came upon something called WeCanCodeIt. They boast taking students from nothing to Jr developer in a short span of 12 weeks. My heart races thinking of the possibility of becoming a developer and creating things and solving business problem through technology. It sounds incredible and lots of fun ! My main focus is to become a seasoned Java developer. I am grateful for an amazing family, instructors, and the students at this cohort for supporting me this far. So here I am !
       </p>
       <p class="w3-large w3-text-grey w3-hide-medium">
       You can view my profiles on <a target="_blank" href="https://www.linkedin.com/mynetwork/">LinkedIn.com</a> and the <a href="https://github.com/Farzana01">github.com</a></p> 
@@ -63,27 +62,30 @@ h1,h2,h3,h4,h5,h6 {
   </section>
     
   <!-- CodingBootCamp Section -->
-  <section>
-  <div class="w3-row w3-padding 14" id="SkillsandLanguages">
-    <div class="w3-col l6 w3-padding-large">
+    <div class="w3-row w3-padding 4" id="SkillsandLanguages">
+    <div class="w3-col l6 w3-padding-small"> 
+
+    <div>
       <h1 class="w3-center">Skills and Languages</h1>
-      <h2>Java | OOP | Database | Git/GitHub | CSS | HTML | MVC | JAVASCRIPT</h2>
-      <p class= Java | OOP | Database | Git/GitHub | CSS | HTML | MVC | JAVASCRIPT</p>
-    
-      <h4>Projects using JAVA and Eclipse</h4>
+      <p class="Java | OOP | Database | Git/GitHub | CSS | HTML | MVC | JAVASCRIPT">
+           Java | OOP | Database | Git/GitHub | CSS | HTML | MVC | JAVASCRIPT 
+          </p>
+      </div>
+
+      <h4>Projects using JAVA and Eclipse :</h4>
       <article>
         <h3 class="w3-text-blue"> FortuneTellerApp </h3>      
-        <img src="FortuneTeller.jpg">
+        <img src="FortuneTeller.jpg" class="img-frame">
         </article>
 
 <artcle>
         <h3 class="w3-text-blue"> VirtualPetShelterApp </h3>
-         <img src="VirtualPet.jpg" /></a>
+         <img src="VirtualPet.jpg" class="img-frame">
          </artcle>
 
          <article>
          <h3 class="w3-text-blue"> VirtualPetAmok </h3>         
-         <img src="VirtualPetAmok.jpg">
+         <img src="VirtualPetAmok.jpg" class="img-frame">
          </article><br>
     
       <h4>Past Experience</h4>
@@ -95,7 +97,9 @@ h1,h2,h3,h4,h5,h6 {
     
       <h4>Coding Bootcamp</h4>
       <p class="w3-text-blue"> We Can Code It </p> 
-      <img src="grouppic.jpg">   
+       <div class="img-frame-cap">
+      <img src="grouppic.jpg">  
+      <div class="caption">We Can Code It Summer 2017 crew</div> 
     </div>
     
     <div class="w3-col l6 w3-padding-large">
@@ -107,8 +111,7 @@ h1,h2,h3,h4,h5,h6 {
   <section>
   <div class="w3-container w3-padding 10" id="contact">
     <h1>Contact</h1>
-    <p>I am available for interviews after August 4th. Please contact me at 614-886-8807 or email me at
-    <a target="_blank" href="mailto:farzana.n.azad@gmail.com">farzana.n.azad@gmail.com</a></p>
+    <p>You can reach me at 614-886-8807 or email me at <a target="_blank" href="mailto:farzana.n.azad@gmail.com">farzana.n.azad@gmail.com</a></p>
  </div>
   
 <!-- End page content -->

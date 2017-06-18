@@ -1,10 +1,3 @@
-
-p {
-     
-      color: dark green;
-      
-}
-
 body {
 
         color: black;
@@ -13,8 +6,16 @@ body {
 
 h1 {
     color: black;
+    text-align: left;
 }
 
+h2 {
+
+    font-size: 15px;
+    text-align: right;
+    width: 800px;
+
+}
 h3 {
 
   color: blue;
@@ -36,23 +37,31 @@ a {
    
  }
 
- section {
-  
-    border: none ;
-}
-
-nav {
+ nav {
      
      color: blue;
      font-size: 25px;
      font-type: bold;
 }
 
-img {
-     
-      border: thin;
+.img-frame {
+    background:transparent;
+    padding:8px;
+    border:1px solid #999999; 
+  }
 
-}
+.img-frame-cap {
+    width:760px;
+    background:#fff;
+    padding:18px 18px 2px 18px;
+    border:1px solid #999; 
+  }
+
+  .caption {
+
+    text-align:center;margin-top:4px;font-size:12px; 
+
+  }
 
 header {
   
