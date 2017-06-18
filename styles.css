@@ -1,7 +1,7 @@
 
 p {
      
-      color: blue;
+      color: dark green;
       
 }
 
@@ -12,19 +12,33 @@ body {
 }
 
 h1 {
+    color: black;
+}
+
+h3 {
+
+  color: blue;
+  
+}
+h4 {
     color: red;
+}
+
+h5 {
+    
+    color: blue;
+
 }
 
 a {
    
-   color: green;
+   color: blue;
+   
+ }
 
-
-}
-
-section {
+ section {
   
-    border: none;
+    border: none ;
 }
 
 nav {
@@ -36,7 +50,7 @@ nav {
 
 img {
      
-      border: none;
+      border: thin;
 
 }
 
@@ -45,8 +59,3 @@ header {
       font: bold;
 }
 
-.VirtualPet img {
-  
-      width: 50%;
-
-}
